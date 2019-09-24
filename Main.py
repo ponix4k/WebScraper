@@ -26,9 +26,9 @@ else:
 
 InputRating = input('Enter Rating 1 - 5 :')
 if InputRating == '':
-    Rating = 4.0
+    Rating = '4.0'
 else:
-    Rating = float(InputRating)
+    Rating = (InputRating)
     print(Rating)
 
 
